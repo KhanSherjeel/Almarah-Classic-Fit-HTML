@@ -1,0 +1,15 @@
+.app-component-container {
+  display: flex;
+  position: relative;
+}
+.app-component-text {
+  color: var(--dl-color-primary1-blue80);
+  text-align: left;
+  font-family: "Raleway";
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+@media(max-width: 767px) {
+  .app-component-text {
+    text-align: center;
+  }
+}
